@@ -1,0 +1,157 @@
+body {
+  
+    color: lightgray;
+    font-family: OCR A Std, monospace;
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/31/15/04/spider-web-1292978_1280.png") 
+  }
+  header{
+    background-color: rgb(100, 0, 0);
+    text-align: center;
+    margin: 20px auto 0;
+    width: 95%; 
+    box-shadow: 0 0 20px 10px rgb(90, 0, 0);
+    border-radius: 20px;
+  }
+  
+  img{
+    display: block;
+  }
+  
+  #title{
+  font-family: 'THE AMAZING SPIDER-MAN', sans-serif;                                         
+  }
+  
+  nav {
+    background-color: rgb(160, 0, 0);
+    margin-top: 0;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  nav > h2{
+    text-align: center;
+  }
+  
+  ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(190, 0, 0);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  nav > ul > li > a {
+    text-decoration: none;
+    color: lightgray; 
+  }
+  
+  nav > ul > li > a:hover {
+    color: gray;
+  }
+  
+  main {
+    background-color: rgb(0, 0, 160);
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 20px;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(200, 0, 0);
+    margin: 10px;
+    border-radius: 20px;
+    height: 10%;
+  
+  }
+  
+  section:hover{
+    background-color: rgb(255, 0, 0);
+  }
+  
+  #img-div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(200, 0, 0);
+    margin: 10px;
+    border-radius: 20px;
+    height: 10%;
+  }
+  
+  #img-div:hover{
+    background-color: rgb(255, 0, 0);
+  }
+  
+  #image{
+    margin: 0 auto;
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .items{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .information{
+    width: 75%;
+  }
+  
+  .fact-img {
+   width: 25%; 
+  }
+  
+  .fact-img > img {
+    max-width: 50%;
+    height: auto;
+    margin: 10% 0;
+  }
+  
+  #powers > .items, #villians > .items {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  #tribute-link{
+    background-color: rgb(100,100,100);
+    color: rgb(200,200,200);
+    text-decoration: none;
+    border-radius:15px;
+    padding: 10px;
+  }
+  
+  #tribute-link:hover{
+   background-color: rgb(200,200,200);
+  color: rgb(100,100,100) 
+  }
+  
+  footer{
+    background-color: rgb(128, 0, 0);
+    text-align: center;
+    margin: 20px auto 0;
+    width: 95%; 
+    box-shadow: 0 0 20px 10px rgb(90, 0, 0);
+    border-radius: 20px;
+  }
+  
+  footer > ul > li > a {
+    text-decoration: none;
+    color: lightgray;
+  }
+  
+  footer > ul > li > a:hover {
+    color: gray;
+  }
